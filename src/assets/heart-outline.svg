@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Heart outline</title>
+  <path
+    d="M32 54.5 9.6 33.1C3.7 27.4 3.7 18.2 9.4 12.5c5.5-5.5 14.4-5.7 20.1-.4L32 14.4l2.5-2.3c5.7-5.3 14.6-5.1 20.1.4 5.7 5.7 5.7 14.9-.2 20.6L32 54.5Z"
+    fill="none"
+    stroke="#171217"
+    stroke-width="4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
