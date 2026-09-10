@@ -29,16 +29,16 @@ export default defineConfig({
         scope: '/skate-log/',
         start_url: '/skate-log/',
       },
-
-      workbox: {
-        globPatterns: [
-          '**/*.{js,css,html,svg,png,jpg,jpeg,gif,webp,ico}',
-        ],
-        cleanupOutdatedCaches: true,
-        clientsClaim: true,
-        skipWaiting: true,
-        navigateFallback: 'index.html',
-      },
+workbox: {
+  globPatterns: [
+    '**/*.{js,css,html,svg,png,jpg,jpeg,gif,webp,ico}',
+  ],
+  maximumFileSizeToCacheInBytes: 6 * 1024 * 1024,
+  cleanupOutdatedCaches: true,
+  clientsClaim: true,
+  skipWaiting: true,
+  navigateFallback: 'index.html',
+},
 
       devOptions: {
         enabled: false,
